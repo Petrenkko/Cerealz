@@ -1,0 +1,163 @@
+@font-face {
+  font-family: title-font;
+  src: url(Fonts/Title_font.otf);
+}
+@font-face {
+  font-family: all-font;
+  src: url(Fonts/Baby-Pilot.otf);
+}
+
+/* EROU */
+body{
+  background-color: #ffffff;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pozaerou.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-text button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 60px;
+    border-color: #518f75;
+    border-width: 5px;
+  }
+  
+  .hero-text button:hover {
+    background-color: #518f756b;
+    color: white;
+  }
+
+  /* SLIDESHOW */
+  .peopleCarouselImg {
+    width: auto;
+    height: auto;
+    max-height: 600px;
+  }
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 20px;
+    border-color: #335044;
+    border-width: 3px;
+}
+
+.active{
+  background-color: #4b7262;
+  border-radius: 20px;
+}
+@media only screen 
+and (max-device-width: 1000px){
+    .nav-item
+    {
+      text-align: center;
+    }
+}
+.culoare_nav{
+    background-color: #335044;
+}
+
+.footer{
+  text-align: left;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 5px; /* Added */
+  padding: 40px !important;
+  color: #FFFFFF;
+}
+/* ICONS */
+.icon-bar {
+  width: 20ox;
+  height: 20ox;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  margin: 2px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.instagram {
+  background: #44315e;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.cbtn{
+  background-color: #518f75;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 60px;
+  border-color: #518f75;
+  border-width: 0px;
+}
+.titletext
+{
+  font-family: title-font;
+  font-size: 90px !important;
+  text-align: center;
+  font-size: large;
+}
+.img-modal{
+  width: 100%;
+}
+.modal h5{
+  font-family: title-font;
+}
